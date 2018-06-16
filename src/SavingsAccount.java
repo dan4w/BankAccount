@@ -4,10 +4,12 @@
 public class SavingsAccount extends BankAccount
 {  
    private double interestRate;
+   
    /**
       Constructs a bank account with a given interest rate.
       @param rate the interest rate
    */
+   
    public SavingsAccount(double rate) 
    {  
       interestRate = rate;

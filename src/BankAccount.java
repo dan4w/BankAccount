@@ -5,6 +5,8 @@
 public class BankAccount
 {  
     private double balance; 
+    
+    
    /**
       Constructs a bank account with a zero balance.
    */
@@ -13,6 +15,7 @@ public class BankAccount
       balance = 0;
    }
 
+   
    /**
       Constructs a bank account with a given balance.
       @param initialBalance the initial balance
